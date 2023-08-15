@@ -1,0 +1,49 @@
+:root {
+  --primary-color: #006633;
+  --accent: #c0462e;
+  --secondary-color: #cc6955;
+  --background: #ffffff;
+  --text: #000000;
+}
+.main {
+  text-align: center;
+}
+.info {
+  justify-content: center;
+  margin: 30px auto;
+}
+h3 {
+  font-size: 35px;
+  font-weight: 400;
+}
+h1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+h5 {
+  font-size: 30px;
+}
+p {
+  font-size: 20px;
+}
+.back a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 22px;
+  float: left;
+}
+.back a:visited {
+  color: var(--secondary-color);
+}
+.back a:hover {
+  cursor: pointer;
+}
+.btn1 {
+  padding: 20px;
+  background-color: var(--background);
+  border: 2px solid var(--primary-color);
+}
+.btn1 a {
+  text-decoration: none;
+  color: var(--text);
+}
